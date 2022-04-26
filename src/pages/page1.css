@@ -1,0 +1,10 @@
+.page1{
+    position: relative;
+}
+#dol{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 60px;
+    left: 200px;
+}

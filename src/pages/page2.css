@@ -1,0 +1,50 @@
+.container{
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+}
+.mySlide{
+    position: absolute;
+
+    top: 200px;
+    left: 200px;
+}
+.slick-dots{
+    position: absolute;
+    bottom: -150px;
+}
+
+.imgbox{
+    width: 400px;
+    height: 300px;
+    margin-right: 40px;
+    float: left;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.textbox{
+    width: 400px;
+    height: 600px;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+p{
+    font-size: 20px;
+}
+.slideIn{
+    width: 100%;
+    height: 400px;
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
