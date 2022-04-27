@@ -5,11 +5,10 @@
   display:flex;
   justify-content : center;
   align-items:center;
-  overflow-x: hidden;
+  overflow: hidden;
   background-color: black;
   color: #fff;
 }
-
 
 .control button:nth-child(1) {
   display: none;

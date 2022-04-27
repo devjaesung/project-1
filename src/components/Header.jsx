@@ -6,15 +6,20 @@ export default class Header extends Component {
     return (
         <>
       <div className='head'>
-        <h1>header</h1>
+        <div className='logo'>
+        <a href='#!'>
+          <img src="images/hyundai-logo-white.png" alt='logo'/>
+        </a>
+      </div>
+    
         <div className='nav'>
           <ul className='gnb'>
-              <li><a href='#!'>About</a></li>
-              <li><a href='#!'>Menu1</a></li>
-              <li><a href='#!'>Menu2</a></li>
+              <li className='lnb'><a href='#!'>About</a></li>
+              <li className='lnb'><a href='#!'>Menu1</a></li>
+              <li className='lnb'><a href='#!'>Menu2</a></li>
           </ul>
       </div>
-      <hr></hr>
+      <hr />
       </div>
      
       </>

@@ -1,9 +1,35 @@
+a{
+    text-decoration: none;
+    color: #fff;
+}
 .head{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding-left: 40px;
     position: fixed;
+    z-index: 888; 
+    color: #fff;
+}
+.logo{
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    z-index: 9999;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.head:hover{
+    background-color: #fff;
+    opacity: .6;
+}
+.head:hover .nav a{
+    color: #999;
+}
+.head:hover hr{
+    border: 1px solid #999;
 }
 .gnb{
     width: 800px;
@@ -14,12 +40,13 @@
 li{
     list-style-type: none;
 }
-a{
+.gnb a{
+    font-size: 28px;
     text-decoration: none;
     color: #fff;
 }
-.gnb a{
-    font-size: 28px;
+.gnb .lnb a:hover{
+    color: red;
 }
 hr{
     position: absolute;

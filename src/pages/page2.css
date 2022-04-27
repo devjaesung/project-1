@@ -1,50 +1,36 @@
 .container{
-    width: 100%;
-    height: 100%;
-    padding-top: 40px;
+    width: 100vw;
+    height: 100vh;
+}
+.mySlider{
+    width: 1200px;
+    height: 450px;
+    margin: 100px auto;
+    border: 2px solid red;
     position: relative;
+    top: 80px;
+    left: -40px;
     overflow: hidden;
-    position: relative;
 }
-.mySlide{
-    position: absolute;
-
-    top: 200px;
-    left: 200px;
-}
-.slick-dots{
-    position: absolute;
-    bottom: -150px;
-}
-
-.imgbox{
-    width: 400px;
-    height: 300px;
-    margin-right: 40px;
-    float: left;
-}
-img{
-    width: 100%;
-    height: 100%;
-}
-.textbox{
-    width: 400px;
-    height: 600px;
-    float: left;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-p{
-    font-size: 20px;
-}
-.slideIn{
-    width: 100%;
+.slide{
+    width: 3600px;
     height: 400px;
-background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: absolute;
+    top: 20px;
 }
+.list{
+    width: 1000px;
+    height: 400px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid #fff;
+    float: left;
+}
+#test{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    color: black;
+}
+
+
