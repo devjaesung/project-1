@@ -1,31 +1,55 @@
 .container{
     width: 100vw;
     height: 100vh;
+    position: absolute;
 }
 .mySlider{
-    width: 1200px;
-    height: 450px;
+    width: 1000px;
+    height: 500px;
     margin: 100px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: relative;
-    top: 80px;
+    top: 60px;
     left: -40px;
     overflow: hidden;
 }
 .slide{
-    width: 3600px;
+    width: 3000px;
     height: 400px;
     position: absolute;
-    top: 20px;
+    top: 40px;
 }
 .list{
-    width: 1000px;
+    background: black;
+    width: 800px;
     height: 400px;
     margin-left: 15px;
     margin-right: 15px;
     border: 1px solid #fff;
     float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+.imgbox{
+    width: 45%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.imgbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.txtbox{
+    width: 55%;
+}
+.txtbox h3{
+    text-align: center;
+}
+
 #test{
     width: 100px;
     height: 100px;
@@ -33,4 +57,15 @@
     color: black;
 }
 
-
+.btn-prev{
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    font-size: 40px;
+}
+.btn-next{
+    position: absolute;
+    top: 50%;
+    right: 240px;
+    font-size: 40px;
+}

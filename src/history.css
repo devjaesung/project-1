@@ -1,0 +1,17 @@
+.history{
+    padding-top: 100px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+.history h1,p{
+    text-align: center;
+}
+.history-box{
+    width: 60%;
+    height: 400px
+}
