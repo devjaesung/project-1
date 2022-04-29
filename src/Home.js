@@ -14,7 +14,6 @@ import Page3 from './pages/page3/Page3';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-
 function Home() {
 
   return (
@@ -47,8 +46,7 @@ function Home() {
         </div>
       </Slide>
      </FullPage>
-    <Footer /> 
-
+      <Footer />
     </>
   );
 }

@@ -7,9 +7,9 @@ export default class Header extends Component {
         <>
       <div className='head'>
         <div className='logo'>
-        <a href='#!'>
-          <img src="images/hyundai-logo-white.png" alt='logo'/>
-        </a>
+        <Link to="/">
+        <img src="images/hyundai-logo-white.png" alt='logo'/>
+        </Link>
       </div>
     
         <div className='nav'>
@@ -23,9 +23,12 @@ export default class Header extends Component {
                 <Link to="/history">
                 <a href='#!'>History</a>
                 </Link>
-                
-                </li>
-              <li className='lnb'><a href='#!'>News</a></li>
+              </li>
+              <li className='lnb'>
+                <Link to="/models">
+                <a href='#!'>Models</a>
+                </Link>
+              </li>
           </ul>
       </div>
       <hr />

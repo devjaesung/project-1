@@ -4,6 +4,7 @@ a{
 }
 .head{
     width: 100%;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     padding-left: 40px;
@@ -22,7 +23,7 @@ a{
     height: 100%;
 }
 .head:hover{
-    background-color: rgba(255,255,255, .3);
+    background-color: #666;
 }
 .head:hover .nav a{
     color: #aaa;
@@ -45,7 +46,7 @@ li{
     color: #fff;
 }
 .gnb .lnb a:hover{
-    color: #E63211;
+    color: #d02c0f;
 }
 hr{
     position: absolute;

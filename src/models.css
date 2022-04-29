@@ -1,0 +1,33 @@
+.models{
+    padding-top: 100px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+.models h1,p{
+    text-align: center;
+}
+.models-box{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.m-row{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.imgbox{
+    width: 80%;
+    margin: 10px;
+}
+.imgbox img{
+    width: 100%;
+}
