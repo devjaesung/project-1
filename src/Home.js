@@ -15,7 +15,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 
-function Container() {
+function Home() {
+
   return (
     <>
     <Header />
@@ -35,7 +36,7 @@ function Container() {
         <div className="section-common section-area3">
         <Routes>
           <Route path='/' element={<Page3 />}/>
-          <Route path='/list1' element={<List1 />}/>
+          <Route path='list1' element={<List1 />}/>
           <Route path='/list2' element={<List2 />}/>
           <Route path='/list3' element={<List3 />}/>
           <Route path='/list4' element={<List4 />}/>
@@ -52,4 +53,4 @@ function Container() {
   );
 }
 
-export default Container;
+export default Home;

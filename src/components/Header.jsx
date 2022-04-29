@@ -16,7 +16,7 @@ export default class Header extends Component {
           <ul className='gnb'>
               <li className='lnb'>
                 <Link to="/">
-                <a href='#!'>About</a>
+                <a href='#!'>Home</a>
                 </Link>
               </li>
               <li className='lnb'>

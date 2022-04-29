@@ -17,7 +17,7 @@ const List5 = () => {
       </div>
     </div>
     <div className="back">
-    <Link to="/page3">
+    <Link to="/">
       <a href='#!'>
         <span class="material-symbols-outlined" id='undo'>undo</span>
       </a>
